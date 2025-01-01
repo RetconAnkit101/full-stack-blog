@@ -1,0 +1,12 @@
+------------------------------------------------------------------------------------------------------------------
+ <div className={`w-full h-screen flex flex-col items-center justify-center absolute top-16 bg-red-700  
+          ${open ? "-right-0":"-right-[100%]"}`}>
+		** This enables the menu bar to set to 0% to 100% **
+------------------------------------------------------------------------------------------------------------------
+import { Outlet } from 'react-router-dom'
+<div>
+        <Navbar/>
+        <Outlet/>
+</div>
+	** The {Outlet} represents all other link. this way your NavBar stays up and other thing loads below it** 
+------------------------------------------------------------------------------------------------------------------
