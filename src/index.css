@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 body{
-    background-color: rgb(248, 237, 246);
+    background-color:#e6e6ff;
     width: 100vw;
     overflow-x: hidden;
     font-family: "Montserrat",sans-serif;
+}
+
+.animatedButton{
+    animation-duration: 10000ms;
 }
